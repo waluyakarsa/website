@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat";
+  background-color: #fefefe;
+  color: #020324;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #020324;
+}
+
+.kkn-font {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.5rem;
+  color: #fdeb75;
+}
+
+/* Hero */
+.hero {
+  background: url("../img/ricefield.jpg") no-repeat center center;
+  background-size: cover;
+  background-position-y: -6rem;
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero a {
+  background-color: #3c8c3d; /* hijau */
+  border-color: #3c8c3d;
+  color: #ffffff;
+}
+
+/* Section */
+section {
+  padding: 60px 0;
+}
+
+/* Card Button */
+.btn-outline-primary {
+  color: #427da0;
+  border-color: #427da0;
+}
+
+.btn-outline-primary:hover {
+  background-color: #427da0;
+  color: white;
+}
+
+#kontak h5 {
+  margin-top: 12px;
+  color: #212246;
+}
+
+#kontak a:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  color: #3c8c3d;
+}
+
+/* Footer */
+.footer {
+  background-color: #020324;
+  text-align: center;
+  padding: 28px 0;
+}
+
+.footer p {
+  color: #ffffff;
+}
